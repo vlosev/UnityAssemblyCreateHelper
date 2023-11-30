@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6bc907d8014c3a91ca54de4574d02d, type: 3}
+  m_Name: AsmdefWizardConfig
+  m_EditorClassIdentifier: 
+  <Items>k__BackingField:
+  - <Name>k__BackingField: Implementations
+    <Dependencies>k__BackingField:
+    - Interfaces
+    - Models
+    - Configs
+    <DefaultAssembly>k__BackingField: 1
+  - <Name>k__BackingField: Interfaces
+    <Dependencies>k__BackingField:
+    - Models
+    <DefaultAssembly>k__BackingField: 1
+  - <Name>k__BackingField: Installers
+    <Dependencies>k__BackingField:
+    - Implementations
+    - Interfaces
+    - Zenject
+    <DefaultAssembly>k__BackingField: 1
+  - <Name>k__BackingField: Models
+    <Dependencies>k__BackingField: []
+    <DefaultAssembly>k__BackingField: 0
+  - <Name>k__BackingField: Configs
+    <Dependencies>k__BackingField:
+    - Models
+    - DTO
+    <DefaultAssembly>k__BackingField: 0
+  - <Name>k__BackingField: DTO
+    <Dependencies>k__BackingField: []
+    <DefaultAssembly>k__BackingField: 0
